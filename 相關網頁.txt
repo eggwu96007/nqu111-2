@@ -1,0 +1,7 @@
+1.進入單人模式
+https://www.unixmen.com/reset-root-password-centos-7/
+2.bash設定
+https://blog.gtwang.org/linux/how-to-make-a-fancy-and-useful-bash-prompt-in-linux-1/
+3.run-level設定與GUI安裝
+https://www.cyberciti.biz/tips/linux-changing-run-levels.html
+https://www.796t.com/content/1545289394.html
