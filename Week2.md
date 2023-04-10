@@ -20,3 +20,7 @@
 `
 6. 開啟網頁
 ` 在瀏覽器輸入http://$ip/hi.html `
+
+!!注意!!
+1.防火牆記得要關閉(systemctl status firewalld)
+2.getenforce 要呈現disable
