@@ -23,6 +23,7 @@
 
 ## Hostonly
 - 在VirtualBox中讓VM與host溝通
+ ============
 - Hostonly adapter如果找不到網路卡
 >VirtualBox:
 >File->tool->network manager->create->就有了!!（記得按勾選enable）
