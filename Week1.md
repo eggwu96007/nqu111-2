@@ -22,7 +22,7 @@
 - 皆能互通
 
 ## Hostonly
-- 在VirtualBox中讓VM與host溝通
+在VirtualBox中讓VM與host溝通
  ============
 - Hostonly adapter如果找不到網路卡
 >VirtualBox:
