@@ -80,6 +80,8 @@ FROM 學生
 >GETDATE()為今天日期
 >DATEDIFF(year, start,end)
 >以年來計算起始的年份差距(可以改成month,day...)
+>可以使用DATEADD()來調整GETDATE時差
+>範例:DATEADD(HOUR, 8, GETDATE())
 8. 範例8:在【學生】資料表顯示前3筆學生記錄資料
 ```SELECT TOP 3 * FROM 學生 ```
 >補充：前n筆:(TOP n)
