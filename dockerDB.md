@@ -11,6 +11,7 @@
 2. 再將DB檔案放到docker裡面
 
 ``` docker cp sss/sss_log.ldf sql:/var/opt/mssql/data```
+
 3. 使用T-SQL語法附加到資料庫
 ```
 CREATE DATABASE new1
