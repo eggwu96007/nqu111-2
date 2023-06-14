@@ -1,0 +1,24 @@
+{
+    "id":"chatcmpl-73KMvhCUpKb9RMXKEZo8mf3JAYpQn",
+    "object":"chat.completion",
+    "created":1681027637,
+    "model":"gpt-3.5-turbo-0301",
+    "usage":
+    {
+        "prompt_tokens":16,
+        "completion_tokens":177,
+        "total_tokens":193
+    },
+    "choices":
+    [
+        {
+            "message":
+            {
+                "role":"assistant",
+                "content":"As an AI language model, I do not have personal experiences."
+            },
+            "finish_reason":"stop",
+            "index":0
+        }
+    ]
+}
