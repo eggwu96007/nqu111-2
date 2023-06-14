@@ -3,7 +3,7 @@
 ```yum install curl unzip man-db```
 ```curl https://rclone.org/install.sh |  bash```
 
-3. 確認是否安裝
+2. 確認是否安裝
 ```rclone version```
 
 # 先創建googleAPI
