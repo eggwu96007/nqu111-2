@@ -14,7 +14,7 @@
 #define write_callback_state_start_response     0
 #define write_callback_state_continue_response  1
 #define write_callback_state_end_response       2
-char *openai_key="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";
+char *openai_key="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";
 char content_end[1024*128];
 char global_response[1024*128];
 int  global_response_offset=0;
@@ -68,7 +68,6 @@ size_t write_callback_chat(char *ptr, size_t size, size_t nmemb, void *userdata)
 
 void send_request_chat(char *data)
 {
-   // printf("這是怎樣:%s",data);
     CURL *curl;
     CURLcode res;
 
@@ -86,8 +85,6 @@ void send_request_chat(char *data)
         char chatRequestTemplate[]="{\"model\":\"%s\",\"messages\":%s}";
         char message[3072];
         char newdata[3072];
-        //strcpy(newdata,data);
-       // strcpy(data,"你好");
         data[strcspn(data, "\n")] = '\0';//這裡卡超級久，因為這裡多了\n跳行造成api有問題
         strcat(data, "。請將句號以前的文字翻譯成英文");
         sprintf(message,messagesTemplate,data);
