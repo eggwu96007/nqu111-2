@@ -1,12 +1,12 @@
 # 神經網路類別報告，CNN與RNN差別
 # 參考來源:
 1. CNN
-- (來源1)[https://medium.com/jameslearningnote/資料分析-機器學習-第5-1講-卷積神經網絡介紹-convolutional-neural-network-4f8249d65d4f]
+- [來源1](https://medium.com/jameslearningnote/資料分析-機器學習-第5-1講-卷積神經網絡介紹-convolutional-neural-network-4f8249d65d4f)
 
-- (來源2)[https://www.youtube.com/watch?v=4-IR8kOrtoY]
+- [來源2](https://www.youtube.com/watch?v=4-IR8kOrtoY)
 2. RNN
-- (來源1)[https://www.youtube.com/watch?v=Dj7Bkhf3ccw]
-- (來源2)[https://ithelp.ithome.com.tw/articles/10193469]
+- [來源1](https://www.youtube.com/watch?v=Dj7Bkhf3ccw)
+- [來源2](https://ithelp.ithome.com.tw/articles/10193469)
 3. CHATGPT
 
 # 介紹
