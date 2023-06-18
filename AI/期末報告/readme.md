@@ -1,5 +1,6 @@
 # 期末主題：利用AI做影片翻譯
-# (參考專案)[https://github.com/smallko/test-whisper]
+# (參考專案)
+(點這裡)[https://github.com/smallko/test-whisper]
 ## conda安裝
 1. 
 ``` wget Miniconda3 Linux-aarch64 64-bit ```
